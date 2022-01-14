@@ -1,0 +1,396 @@
+<div class="row text-center">
+    <div class="col h4 text-success">
+        ยอดชำระทั้งหมด : 58,750 บาท
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table" id="payment_result">
+        <thead class="thead-inverse text-center">
+            <tr>
+                <th>No.</th>
+                <th>รหัส</th>
+                <th>ชื่อ</th>
+                <th>วิชา</th>
+                <th>ค่าเรียน</th>
+                <th>ยอดชำระ</th>
+                <th>สถานะ</th>
+            </tr>
+        </thead>
+        <tbody>
+                                    <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 480296078</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">591</td>
+                    <td class="text-center">อั๋น</td>
+                    <td class="text-center">P</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1965</td>
+                    <td class="text-center">โอม</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1017967207</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">877</td>
+                    <td class="text-center">เกนนี่</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 480338904</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1136</td>
+                    <td class="text-center">แพท</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1136</td>
+                    <td class="text-center">แพท</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">1136</td>
+                    <td class="text-center">แพท</td>
+                    <td class="text-center">P</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">1190</td>
+                    <td class="text-center">พีท</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">5</td>
+                    <td class="text-center">1190</td>
+                    <td class="text-center">พีท</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">6</td>
+                    <td class="text-center">1190</td>
+                    <td class="text-center">พีท</td>
+                    <td class="text-center">P</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">7</td>
+                    <td class="text-center">1687</td>
+                    <td class="text-center">พูห์</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">8</td>
+                    <td class="text-center">1687</td>
+                    <td class="text-center">พูห์</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1335161293</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1858</td>
+                    <td class="text-center">กีกี้</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1858</td>
+                    <td class="text-center">กีกี้</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">1939</td>
+                    <td class="text-center">เก็ต</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">1939</td>
+                    <td class="text-center">เก็ต</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1420917351</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1917</td>
+                    <td class="text-center">เฟสบุ๊ค</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1917</td>
+                    <td class="text-center">เฟสบุ๊ค</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 400424271</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 1,750</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1940</td>
+                    <td class="text-center">จินนี่</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1034353290</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1978</td>
+                    <td class="text-center">โมสาร์ท</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 368015624</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2152</td>
+                    <td class="text-center">เฟอร์กี้</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">2152</td>
+                    <td class="text-center">เฟอร์กี้</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1540604574</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2170</td>
+                    <td class="text-center">ยู</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 480048479</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">430</td>
+                    <td class="text-center">อาร์ม</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 2420361582</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1164</td>
+                    <td class="text-center">พรีม</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 2190518825</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">885</td>
+                    <td class="text-center">ชุณห์</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1720937125</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1597</td>
+                    <td class="text-center">มิ้นท์</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1715</td>
+                    <td class="text-center">มิลิณ</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 480143965</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1823</td>
+                    <td class="text-center">ม่อน</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1710992239</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1930</td>
+                    <td class="text-center">ซากุระ</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1930</td>
+                    <td class="text-center">ซากุระ</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1034367464</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2003</td>
+                    <td class="text-center">เฟรย่า</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 570171421</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2042</td>
+                    <td class="text-center">ต้าลี่</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,17 @@
+SIAM COMMERCIAL BANK
+REPORT NO. RATSR090                          COMPLETED TRANSACTION REPORT FOR CUSTOMERS                               PAGE NO. 1
+REPORT TO. CBZ4735                                        AS AT 26/03/2020                                              RUN DATE 28/03/2020
+COMPANY NAME   TATE LEARNING CENTRE CO.,LTD                                          
+
+          TOTAL POSTED AMOUNT              =              10,700.00     TRANS. = 2
+          TOTAL PARTIAL POSTED AMOUNT      =                   0.00     TRANS. = 0
+          TOTAL FAILED AMOUNT              =               5,350.00     TRANS. = 2
+          TOTAL FAILED VALIDATION AMOUNT   =                   0.00     TRANS. = 0
+          TOTAL PARTIAL FAILED AMOUNT      =                   0.00
+          GRAND TOTAL AMOUNT               =              16,050.00     TRANS. = 4
+
+---------------------------------------------------------------------------------------------------------------------------------------
+  NO.         A/C NO         REFERENCE NO                  TRAN AMOUNT             POSTED AMOUNT    REMARKS
+---------------------------------------------------------------------------------------------------------------------------------------
+2         049-4-40927-2      SCB693             7,000.00                                7,000.00                                  
+3         095-2-35007-2      SCB740             3,700.00                                3,700.00                                  

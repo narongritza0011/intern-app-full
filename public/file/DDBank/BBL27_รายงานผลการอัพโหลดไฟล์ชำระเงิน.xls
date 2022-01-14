@@ -1,0 +1,64 @@
+<div class="row text-center">
+    <div class="col h4 text-success">
+        ยอดชำระทั้งหมด : 7,000 บาท
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table" id="payment_result">
+        <thead class="thead-inverse text-center">
+            <tr>
+                <th>No.</th>
+                <th>รหัส</th>
+                <th>ชื่อ</th>
+                <th>วิชา</th>
+                <th>ค่าเรียน</th>
+                <th>ยอดชำระ</th>
+                <th>สถานะ</th>
+            </tr>
+        </thead>
+        <tbody>
+                                    <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 9490165066</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1947</td>
+                    <td class="text-center">พิงค์พิงค์</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1947</td>
+                    <td class="text-center">พิงค์พิงค์</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">1948</td>
+                    <td class="text-center">พิวพิว</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">1948</td>
+                    <td class="text-center">พิวพิว</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        
+        </tbody>
+    </table>
+</div>

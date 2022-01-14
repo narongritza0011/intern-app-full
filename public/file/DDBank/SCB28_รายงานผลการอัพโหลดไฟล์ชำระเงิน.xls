@@ -1,0 +1,73 @@
+<div class="row text-center">
+    <div class="col h4 text-success">
+        ยอดชำระทั้งหมด : 8,950 บาท
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table" id="payment_result">
+        <thead class="thead-inverse text-center">
+            <tr>
+                <th>No.</th>
+                <th>รหัส</th>
+                <th>ชื่อ</th>
+                <th>วิชา</th>
+                <th>ค่าเรียน</th>
+                <th>ยอดชำระ</th>
+                <th>สถานะ</th>
+            </tr>
+        </thead>
+        <tbody>
+                                    <tr class="table-active">
+                <td colspan="4">เลขที่บัญชี : 1652019655</td>
+                <td colspan="3">ยอดเงินคงเหลือ : 0</td>
+            </tr>
+                                            <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">1779</td>
+                    <td class="text-center">พิตต้า</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">1779</td>
+                    <td class="text-center">พิตต้า</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">1779</td>
+                    <td class="text-center">พิตต้า</td>
+                    <td class="text-center">T</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center">1,750</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">1800</td>
+                    <td class="text-center">พัตเตอร์</td>
+                    <td class="text-center">M</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                <tr>
+                    <td class="text-center">5</td>
+                    <td class="text-center">1800</td>
+                    <td class="text-center">พัตเตอร์</td>
+                    <td class="text-center">E</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center">1,850</td>
+                    <td class="text-center text-success">ทำรายการสำเร็จ</td>
+                </tr> 
+                                        
+                        
+        </tbody>
+    </table>
+</div>

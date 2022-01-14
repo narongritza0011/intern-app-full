@@ -1,0 +1,238 @@
+@charset "utf-8";
+@page{margin: 0.3in 0.2in 0.1in 0.2in;}
+
+@font-face{
+    font-family:  'THSarabunNew';
+    font-style: normal;
+    font-weight: normal;
+    src: url("{{ public_path('fonts/THSarabunNew.ttf') }}") format('truetype');
+   }
+   @font-face{
+    font-family:  'THSarabunNew';
+    font-style: normal;
+    font-weight: bold;
+    src: url("{{ public_path('fonts/THSarabunNew Bold.ttf') }}") format('truetype');
+   }
+   @font-face{
+    font-family:  'THSarabunNew';
+    font-style: italic;
+    font-weight: normal;
+    src: url("{{ public_path('fonts/THSarabunNew Italic.ttf') }}") format('truetype');
+   }
+   @font-face{
+    font-family:  'THSarabunNew';
+    font-style: italic;
+    font-weight: bold;
+    src: url("{{ public_path('fonts/THSarabunNew BoldItalic.ttf') }}") format('truetype');
+   }
+    body{
+        font-family: 'THSarabunNew';
+    }
+/* CSS Document */
+/* ชิดขวา ฟ้า */
+
+/* font style */
+.b{ font-weight: bold; }
+.r{ text-align: right; }
+.c{ text-align: center; }
+.l{ text-align: left; }
+.redtext{ color:red;}
+.bluetext{ color:blue;}
+.under2line{ border-bottom: 2px double #000000; }
+.u{ border-bottom: 1px solid #000000; }
+
+/* font size */
+.f_8{ font-size: 8pt; }
+.f_9{ font-size: 9pt; }
+.f_10{ font-size: 10pt; }
+.f_11{ font-size: 11pt; }
+.f_12{ font-size: 12pt; }
+.f_14{ font-size: 14pt; }
+.f_16{ font-size: 16pt; }
+.f_18{ font-size: 18pt; }
+.f_20{ font-size: 20pt; }
+
+.bg_gray{	background-color: #edebe3 }
+
+div{ padding: 0px; margin-top:0px; margin-bottom:0px; padding: 0px; 	}
+
+h6{	font-size: 14pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+h5{	font-size: 16pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+h4{	font-size: 18pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+h3{	font-size: 20pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+h2{	font-size: 22pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+h1{	font-size: 24pt;font-weight: bold;padding: 0px; margin-top:0px; margin-bottom:0px; 	}
+
+/* under line */
+.un{ border-bottom: 1px dotted #444444; width: auto; }
+
+/* table */
+table.detail{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 2px solid #666666; }
+table.detail th{ font-size: 16pt; border: 1px solid #666666;  }
+table.detail td{ font-size: 16pt; border: 1px solid #666666; vertical-align: top; }
+table.detail th{  margin-top:-10px !important;}
+
+table.detail12{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 2px solid #666666; }
+table.detail12 th{ font-size: 14pt; border: 1px solid #666666;  }
+table.detail12 td{ font-size: 13pt; border: 1px solid #666666; vertical-align: top; }
+
+table.detail_12{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 2px solid #666666; }
+table.detail_12 th{ font-size: 12pt; border: 1px solid #666666;  }
+table.detail_12 td{ font-size: 12pt; border: 1px solid #666666; vertical-align: top; }
+
+table.head{	border: transparent; width: 100%; padding-bottom:10px; border-spacing: -2px;}
+
+table.block{width: 100%; font-size: 16pt;   }
+table.block th{  margin-top:-15px !important;}
+/*table.block td{ font-size: 14pt; }*/
+
+hr.under_head{  border: 1px solid  #666666; margin-top:3px; margin-bottom:3px;}
+hr.dott{  border: 1px dotted red; margin-top:0px; margin-bottom:0px;}
+
+#add_border{ 	padding: 5px;
+				border: 1px solid  #666666;
+				text-align: left;
+				vertical-align: top; }
+#cb_border{ 	padding: 7px;
+				/*border: 1px solid  #666666;*/
+				vertical-align: top;
+				text-align: center;
+				font-size: bold; }
+
+.l_border{ 	border-left: 1px solid #D3D3D3;	}
+
+.t_border{ 	border-top: 1px solid #D3D3D3;	}
+.t_border_black{ 	border-top: 1px solid #000;	}
+
+.b_border{ 	border-bottom: 1px solid #D3D3D3;	}
+.b_border_black{ 	border-bottom: 1px solid #000;	}
+.b_line{ 	border-bottom: 1px dotted #000; text-align: center; color: #424242; 	}
+
+.r_border{ 	border-right: 1px solid #D3D3D3;	}
+.add_border{ 	border: 1px solid #666666;	}
+
+.head_center_16{	text-align: center; align-items: center; font-size: 16pt; font-weight: bold;}
+.head_table_noborder{	border-top: 3px solid #ffffff; border-right: none; border-left: none}
+
+/* รายการสินค้า */
+table.list{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #666666; }
+table.list th{ font-size: 14pt; border: 1px solid #666666;  }
+table.list td{ font-size: 14pt;border-bottom: 1px solid #FFF; border-top: 1px solid #FFF; border-right: 1px solid #666666; border-left: 1px solid #666666;  vertical-align: top; }
+
+table.list12{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #666666; }
+table.list12 th{ font-size: 13pt; border: 1px solid #666666;  }
+table.list12 td{ font-size: 12pt; border-right: 1px solid #666666; vertical-align: top; }
+
+table.bill{width: 100%; border-collapse: collapse; border-spacing: 0px;  }
+table.bill th{ font-size: 15pt; border-bottom: 2px solid #666666; border-top: 2px solid #666666;  }
+table.bill td{ font-size: 15pt; border-bottom: 1px dotted #666666; vertical-align: top; }
+
+table.bill12{width: 100%; border-collapse: collapse; border-spacing: 0px; }
+table.bill12 th{ font-size: 12pt; border-bottom: 1px solid #666666; border-top: 2px solid #666666;  }
+table.bill12 td{ font-size: 12pt; border-bottom: 1px dotted #666666; vertical-align: top; }
+
+/* ตารางสีเทา */
+table.under{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #ffffff; }
+table.under th{ font-size: 14pt;
+				border-top: 1px solid #D3D3D3;
+				border-bottom: 1px solid #D3D3D3;
+				border-right: 1px solid #D3D3D3;
+				border-left: 1px solid #D3D3D3;
+				background-color:#D3D3D3;   }
+table.under td{ font-size: 14pt;
+				border-top: 1px solid #D3D3D3;
+				border-bottom: 1px solid #D3D3D3;
+				border-right: 1px solid #D3D3D3;
+				border-left: 1px solid #D3D3D3;
+				vertical-align: top; }
+/* ตารางขีดล่าง */
+table.under16{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #ffffff; }
+table.under16 th{ font-size: 16pt;
+				border-bottom: 1px solid #D3D3D3;
+				border-right: 1px solid #D3D3D3;
+				border-left: 1px solid #D3D3D3;
+				background-color:#D3D3D3;   }
+table.under16 td{ font-size: 16pt;
+				border-bottom: 1px solid #D3D3D3;
+				border-right: 1px solid #D3D3D3;
+				border-left: 1px solid #D3D3D3;
+				vertical-align: top; }
+
+table.under13{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #ffffff; }
+table.under13 th{ font-size: 13pt;
+					border-bottom: 1px solid #D3D3D3;
+					border-right: 1px solid #D3D3D3;
+					border-left: 1px solid #D3D3D3;
+					background-color:#D3D3D3;   }
+table.under13 td{ font-size: 13pt;
+					border-bottom: 1px solid #D3D3D3;
+					border-right: 1px solid #D3D3D3;
+					border-left: 1px solid #D3D3D3;
+					vertical-align: top; }
+
+/* ออกรายงาน 14 */
+table.report{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #fff; }
+table.report th{ font-size: 14pt;
+					background-color:#D3D3D3;   }
+table.report td{ font-size: 14pt;
+					vertical-align: top; }
+
+/* ออกรายงาน 16 */
+table.report16{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #fff; }
+table.report16 th{ font-size: 16pt;
+					background-color:#D3D3D3;   }
+table.report16 td{ font-size: 16pt;
+					vertical-align: top; }
+
+/* noborder */
+table.noborder{width: 100%;  border-color: 1px solid #ffffff !important; border-collapse: collapse; border-spacing: 0px; font-size: 12pt;}
+table.noborder td{ vertical-align: bottom; }
+
+table.noborder16{width: 100%;  border-color: 1px solid #ffffff !important; border-collapse: collapse; border-spacing: 0px; font-size: 16pt;}
+table.noborder16 td{ vertical-align: bottom; }
+
+table.noborder14{width: 100%;  border-color: 1px solid #ffffff !important; border-collapse: collapse; border-spacing: 0px; font-size: 14pt;}
+table.noborder14 td{ vertical-align: bottom; }
+
+/* noborder */
+table.intable{width: 100%; border-collapse: collapse; border-spacing: 0px; }
+table.intable td{border-color:#fff!important; border-collapse: collapse; border-spacing: 0px; padding-top: 0px; padding-bottom: 0px; font-size: 12pt; }
+
+table.intable14{width: 100%; border-collapse: collapse; border-spacing: 0px; }
+table.intable14 td{border-color:#fff!important; border-collapse: collapse; border-spacing: 0px; padding-top: 0px; padding-bottom: 0px; font-size: 14pt; }
+
+/* barcode */
+table.barcode{width: 100%; border-collapse: collapse; border-spacing: 0px; border: 1px solid #fff; }
+table.barcode td{ font-size: 14pt;
+				border-top: 1px solid #D3D3D3;
+				border-bottom: 1px solid #D3D3D3;
+				border-right: 1px solid #D3D3D3;
+				border-left: 1px solid #D3D3D3;
+				vertical-align: middle; }
+
+/* barcode 6 column */
+
+	.label_size6{
+		width: 33mm; height: 22mm; margin-right: 0mm; border:1px dotted #8C8C8C; float: left; font-size: 12pt; text-align: center;
+	}
+	.label_size5{
+		width: 40mm; height: 24mm; margin-right: 0mm; border:1px dotted #8C8C8C; float: left; font-size: 14pt; text-align: center;
+	}
+	.label_size4{
+		width: 50mm; height: 35mm; margin-right: 0mm; border:1px dotted #8C8C8C; float: left; font-size: 16pt; text-align: center;
+	}
+	.label_size2{
+		width: 100mm; height: 35mm; margin-right: 0mm; border:1px dotted #8C8C8C; float: left; font-size: 16pt; text-align: center;
+	}
+	.label_size38x22{
+		width: 38mm; height: 22mm; margin-right: 2.2mm; margin-left: 2mm; border:1px solid #fff; float: left; font-size: 11pt; text-align: center;
+	}
+	.label_size38x14{
+		width: 38mm; height: 14mm; margin-right: 2.2mm; margin-left: 2mm; border:1px dotted #fff; float: left; font-size: 9pt; text-align: center;
+	}
+	.label_size50x27{
+		width: 50mm; height: 27mm; margin-right: 4.5mm; margin-left: 4.5mm; border:1px dotted #fff; float: left; font-size: 12pt; text-align: center;
+	}
+
+/* หน้า */
+.page_no{ text-align: right; font-size: 12pt; width: 100%; font-weight: bold; }
