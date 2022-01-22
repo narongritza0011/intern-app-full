@@ -266,17 +266,17 @@
 
                                     <li class="{{ request()->is('manage/internship*') ? 'active' : '' }}">
                                         <a href="{{ url('manage/internship') }}">
-                                            <span class="pcoded-mtext">กำลังรออนุมัติ</span>
+                                            <span class="pcoded-mtext">กำลังรออนุมัติ <span class="badge badge-success">{{alert_count_pending()}}</span></span>
                                         </a>
                                     </li>
                                     <li class="{{ request()->is('manage/approved*') ? 'active' : '' }}">
                                         <a href="{{ url('manage/approved') }}">
-                                            <span class="pcoded-mtext">อนุมัติเเล้ว</span>
+                                            <span class="pcoded-mtext">อนุมัติเเล้ว <span class="badge badge-success">{{alert_count_approved()}}</span></span>
                                         </a>
                                     </li>
                                     <li class="{{ request()->is('manage/intern_success*') ? 'active' : '' }}">
                                         <a href="{{ route('internSuccessfull') }}">
-                                            <span class="pcoded-mtext">ฝึกงานเสร็จเเล้ว</span>
+                                            <span class="pcoded-mtext">ฝึกงานเสร็จเเล้ว <span class="badge badge-success">{{alert_count_internSuccess()}}</span></span>
                                         </a>
                                     </li>
 
@@ -329,7 +329,7 @@
                                     </li>
                                     <li class="{{ request()->is('manager/location*') ? 'active' : '' }}">
                                         <a href="{{ url('manager/location') }}">
-                                            <span class="pcoded-mtext">ลูกค้า</span>
+                                            <span class="pcoded-mtext">ลูกค้า <span class="badge badge-danger">{{alert_count_customer()}}</span></span>
                                         </a>
                                     </li>
                                     <li class="{{ request()->is('manager/unlock*') ? 'active' : '' }}">
