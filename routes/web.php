@@ -115,5 +115,10 @@ Route::group(['middleware' => ['auth']], function () {
         Route::resource('unlock', 'UnlockSystemController');
         Route::get('editUnlock/{id}', 'UnlockSystemController@editUnlock');
         Route::get('delUnlock/{id}', 'UnlockSystemController@delUnlock');
+
+
+        Route::resource('service_ma', 'ServiceMaController');
+        Route::get('editServiceMa/{id}', 'ServiceMaController@edit');
+        Route::get('delServiceMa/{id}', 'ServiceMaController@del');
     });
 });

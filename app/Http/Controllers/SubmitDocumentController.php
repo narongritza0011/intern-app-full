@@ -17,7 +17,7 @@ class SubmitDocumentController extends Controller
             'file_internship.*' => 'mimes:jpg,bmp,png,pdf,docx|max:4000'
             //   'file_internship' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             // 'file_internship.*' => 'mimetypes:application/pdf|max:10000'
-            
+
 
         ]);
 

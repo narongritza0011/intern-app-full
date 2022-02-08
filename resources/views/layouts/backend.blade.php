@@ -34,9 +34,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
 
     <!-- themify-icons line icon -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/assets/icon/themify-icons/themify-icons.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/icon/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/assets/icon/font-awesome/css/font-awesome.min.css">
     <!-- ico font -->
     <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/icon/icofont/css/icofont.css">
     <!-- feather Awesome -->
@@ -45,27 +47,36 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/css/style.css">
 
     <!-- Calender css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/bower_components/fullcalendar/css/fullcalendar.css">
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/bower_components/fullcalendar/css/fullcalendar.print.css" media='print'>
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/bower_components/fullcalendar/css/fullcalendar.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/bower_components/fullcalendar/css/fullcalendar.print.css" media='print'>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/css/linearicons.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/assets/css/jquery.mCustomScrollbar.css">
 
     <!-- light-box css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/bower_components/ekko-lightbox/css/ekko-lightbox.css">
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme') }}/files/bower_components/lightbox2/css/lightbox.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/bower_components/ekko-lightbox/css/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme') }}/files/bower_components/lightbox2/css/lightbox.css">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/sweetalert2/sweetalert2.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/dataTables/dataTables.bootstrap4.min.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme/files/assets/pages/data-table/css/buttons.dataTables.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme/files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('theme/files/assets/pages/data-table/extensions/buttons/css/buttons.dataTables.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme/files/assets/pages/data-table/css/buttons.dataTables.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme/files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('theme/files/assets/pages/data-table/extensions/buttons/css/buttons.dataTables.min.css') }}">
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/buttons.bootstrap4.min.css') }}"> --}}
 
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/jquery-datetimepicker/jquery.datetimepicker.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/bootstrap-select/css/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('vendor/jquery-datetimepicker/jquery.datetimepicker.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('vendor/bootstrap-select/css/bootstrap-select.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/lightgallery/css/lightgallery.min.css') }}">
 
 
@@ -108,7 +119,7 @@
             left: 0;
             height: 100%;
             width: 100%;
-            background: rgba(255, 255, 255, .8) url('{{ asset("images/spinner.gif")}}') 50% 50% no-repeat;
+            background: rgba(255, 255, 255, .8) url('{{ asset('images/spinner.gif') }}') 50% 50% no-repeat;
         }
 
         /* When the body has the loading class, we turn
@@ -130,6 +141,7 @@
         div.dt-button-collection {
             z-index: 10000 !important;
         }
+
     </style>
     @yield('style')
 </head>
@@ -174,8 +186,7 @@
         </div>
     </div>
 
-    {{--
-    <div class="loader animation-start" id="loading">
+    {{-- <div class="loader animation-start" id="loading">
         <span class="circle delay-1 size-2"></span>
         <span class="circle delay-2 size-4"></span>
         <span class="circle delay-3 size-6"></span>
@@ -224,63 +235,70 @@
                                         <span>{{ Auth::user()->username }}</span>
                                         <i class="feather icon-chevron-down"></i>
                                     </div>
-                                    <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <ul class="show-notification profile-notification dropdown-menu"
+                                        data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                                         {{-- <li>
                                             <a href="{{ url('') }}">
                                         <i class="feather icon-user"></i> Profile
                                         </a>
                             </li> --}}
-                            <li>
-                                <a href="javascript:void(0)" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                    <i class="feather icon-log-out"></i> ออกจากระบบ
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
+                                        <li>
+                                            <a href="javascript:void(0)"
+                                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                                <i class="feather icon-log-out"></i> ออกจากระบบ
+                                            </a>
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                                style="display: none;">
+                                                @csrf
+                                            </form>
+                                        </li>
+                                    </ul>
+
+                                </div>
                             </li>
                         </ul>
-
                     </div>
-                    </li>
-                    </ul>
                 </div>
-        </div>
-        </nav>
+            </nav>
 
-        <div class="pcoded-main-container">
-            <div class="pcoded-wrapper">
-                <nav class="pcoded-navbar">
-                    <div class="pcoded-inner-navbar main-menu">
-                        <div class="pcoded-navigatio-lavel">เมนู</div>
-                        <ul class="pcoded-item pcoded-left-item">
-                            <!-- start menu -->
-
-
-                            <li class="pcoded-hasmenu {{ request()->is('manage*') ? 'pcoded-trigger active' : '' }}">
-                                <a href="javascript:void(0)">
-                                    <span class="pcoded-micon"><i class="fab fa-angellist"></i></span>
-                                    <span class="pcoded-mtext">นักศึกษาฝึกงาน</span>
-                                </a>
-                                <ul class="pcoded-submenu">
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="pcoded-navigatio-lavel">เมนู</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- start menu -->
 
 
-                                    <li class="{{ request()->is('manage/internship*') ? 'active' : '' }}">
-                                        <a href="{{ url('manage/internship') }}">
-                                            <span class="pcoded-mtext">กำลังรออนุมัติ <span class="badge badge-success">{{alert_count_pending()}}</span></span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manage/approved*') ? 'active' : '' }}">
-                                        <a href="{{ url('manage/approved') }}">
-                                            <span class="pcoded-mtext">อนุมัติเเล้ว <span class="badge badge-success">{{alert_count_approved()}}</span></span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manage/intern_success*') ? 'active' : '' }}">
-                                        <a href="{{ route('internSuccessfull') }}">
-                                            <span class="pcoded-mtext">ฝึกงานเสร็จเเล้ว <span class="badge badge-success">{{alert_count_internSuccess()}}</span></span>
-                                        </a>
-                                    </li>
+                                <li
+                                    class="pcoded-hasmenu {{ request()->is('manage*') ? 'pcoded-trigger active' : '' }}">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="fab fa-angellist"></i></span>
+                                        <span class="pcoded-mtext">นักศึกษาฝึกงาน</span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
 
-                                    <!-- <li class="{{ request()->is('manage/customer*') ? 'active' : '' }}">
+
+                                        <li class="{{ request()->is('manage/internship*') ? 'active' : '' }}">
+                                            <a href="{{ url('manage/internship') }}">
+                                                <span class="pcoded-mtext">กำลังรออนุมัติ <span
+                                                        class="badge badge-success">{{ alert_count_pending() }}</span></span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manage/approved*') ? 'active' : '' }}">
+                                            <a href="{{ url('manage/approved') }}">
+                                                <span class="pcoded-mtext">อนุมัติเเล้ว <span
+                                                        class="badge badge-success">{{ alert_count_approved() }}</span></span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manage/intern_success*') ? 'active' : '' }}">
+                                            <a href="{{ route('internSuccessfull') }}">
+                                                <span class="pcoded-mtext">ฝึกงานเสร็จเเล้ว <span
+                                                        class="badge badge-success">{{ alert_count_internSuccess() }}</span></span>
+                                            </a>
+                                        </li>
+
+                                        <!-- <li class="{{ request()->is('manage/customer*') ? 'active' : '' }}">
                                         <a href="{{ url('manage/customer') }}">
                                             <span class="pcoded-mtext">จัดการข้อมูล</span>
                                         </a>
@@ -288,75 +306,94 @@
 
 
 
-                                    <li class="{{ request()->is('manage/method*') ? 'active' : '' }}">
-                                        <a href="{{ url('register') }}">
-                                            <span class="pcoded-mtext">สมัครฝึกงาน</span>
-                                        </a>
-                                    </li>
+                                        <li class="{{ request()->is('manage/method*') ? 'active' : '' }}">
+                                            <a href="{{ url('register') }}">
+                                                <span class="pcoded-mtext">สมัครฝึกงาน</span>
+                                            </a>
+                                        </li>
 
 
-                                </ul>
-                            </li>
+                                    </ul>
+                                </li>
 
 
 
-                        </ul>
-                        <ul class="pcoded-item pcoded-left-item">
-                            <!-- start menu -->
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- start menu -->
 
 
-                            <li class="pcoded-hasmenu {{ request()->is('manager*') ? 'pcoded-trigger active' : '' }}">
-                                <a href="javascript:void(0)">
-                                    <span class="pcoded-micon"><i class="fas fa-address-card"></i></span>
-                                    <span class="pcoded-mtext">ผู้ดูเเลระบบ</span>
-                                </a>
+                                <li
+                                    class="pcoded-hasmenu {{ request()->is('manager*') ? 'pcoded-trigger active' : '' }}">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="fas fa-address-card"></i></span>
+                                        <span class="pcoded-mtext">ผู้ดูเเลระบบ</span>
+                                    </a>
 
-                                <ul class="pcoded-submenu">
-                                    <li class="{{ request()->is('manager/user*') ? 'active' : '' }}">
-                                        <a href="{{ route('userAll') }}">
-                                            <span class="pcoded-mtext">จัดการผู้ใช้งาน</span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manager/product*') ? 'active' : '' }}">
-                                        <a href="{{ url('manager/product') }}">
-                                            <span class="pcoded-mtext">จัดการสินค้า</span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manager/report*') ? 'active' : '' }}">
-                                        <a href="{{ url('manager/report') }}">
-                                            <span class="pcoded-mtext">รายงานการทำงาน</span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manager/location*') ? 'active' : '' }}">
-                                        <a href="{{ url('manager/location') }}">
-                                            <span class="pcoded-mtext">ลูกค้า <span class="badge badge-danger">{{alert_count_customer()}}</span></span>
-                                        </a>
-                                    </li>
-                                    <li class="{{ request()->is('manager/unlock*') ? 'active' : '' }}">
-                                        <a href="{{ url('manager/unlock') }}">
-                                            <span class="pcoded-mtext">ปลดล็อคระบบ</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <hr>
-                            <li class="">
-                                <a href="javascript:void(0)" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                    <span class="pcoded-micon"><i class="fa fa-lock" aria-hidden="true"></i></span>
-                                    <span class="pcoded-mtext">ออกจากระบบ</span>
-                                </a>
-                            </li>
-                    </div>
+                                    <ul class="pcoded-submenu">
+                                        <li class="{{ request()->is('manager/user*') ? 'active' : '' }}">
+                                            <a href="{{ route('userAll') }}">
+                                                <span class="pcoded-mtext">จัดการผู้ใช้งาน</span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manager/product*') ? 'active' : '' }}">
+                                            <a href="{{ url('manager/product') }}">
+                                                <span class="pcoded-mtext">จัดการสินค้า</span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manager/report*') ? 'active' : '' }}">
+                                            <a href="{{ url('manager/report') }}">
+                                                <span class="pcoded-mtext">รายงานการทำงาน</span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manager/location*') ? 'active' : '' }}">
+                                            <a href="{{ url('manager/location') }}">
+                                                <span class="pcoded-mtext">ลูกค้า <span
+                                                        class="badge badge-danger">{{ alert_count_customer() }}</span></span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manager/unlock*') ? 'active' : '' }}">
+                                            <a href="{{ url('manager/unlock') }}">
+                                                <span class="pcoded-mtext">ปลดล็อคระบบ</span>
+                                            </a>
+                                        </li>
+                                        <li class="{{ request()->is('manager/service_ma*') ? 'active' : '' }}">
+                                            <a href="{{ url('manager/service_ma') }}">
+                                                <span class="pcoded-micon"><i class="fa fa-lock"
+                                                        aria-hidden="true"></i></span>
+                                                <span class="pcoded-mtext">บริการด้าน Ma</span>
+                                            </a>
+                                        </li>
 
-                </nav>
 
-                <div class="pcoded-content">
-                    <div class="pcoded-inner-content">
-                        <!-- Main-body start -->
-                        <div class="main-body">
-                            <div class="page-wrapper">
-                                <div class="page-body">
-                                    @yield('content')
 
+                                    </ul>
+
+
+
+
+                                    <hr>
+                                <li class="">
+                                    <a href="javascript:void(0)"
+                                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        <span class="pcoded-micon"><i class="fa fa-lock"
+                                                aria-hidden="true"></i></span>
+                                        <span class="pcoded-mtext">ออกจากระบบ</span>
+                                    </a>
+                                </li>
+                        </div>
+
+                    </nav>
+
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <div class="page-body">
+                                        @yield('content')
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -364,7 +401,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     @yield('vue')
@@ -385,13 +421,16 @@
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 
     <!-- jquery slimscroll js -->
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript"
+        src="{{ asset('theme') }}/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
     <!-- modernizr js -->
     <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/modernizr/js/modernizr.js"></script>
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/modernizr/js/css-scrollbars.js"></script>
+    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/modernizr/js/css-scrollbars.js">
+    </script>
     <!-- calender js -->
     <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/moment/js/moment.min.js"></script>
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/fullcalendar/js/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/fullcalendar/js/fullcalendar.min.js">
+    </script>
     <script type="text/javascript" src="{{ asset('theme') }}/files/assets/pages/full-calender/calendar.js"></script>
     <!-- Chart js -->
     <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/chart.js/js/Chart.js"></script>
@@ -399,9 +438,13 @@
     <script type="text/javascript" src="{{ asset('theme') }}/files/assets/js/classie.js"></script>
     <!-- i18next.min.js -->
     <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/i18next/js/i18next.min.js"></script>
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
+    <script type="text/javascript"
+        src="{{ asset('theme') }}/files/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript"
+        src="{{ asset('theme') }}/files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js">
+    </script>
+    <script type="text/javascript"
+        src="{{ asset('theme') }}/files/bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
 
     <!-- gauge js -->
     <script src="{{ asset('theme') }}/files/assets/pages/widget/gauge/gauge.min.js"></script>
@@ -419,7 +462,8 @@
     <script type="text/javascript" src="{{ asset('theme') }}/files/assets/js/script.js"></script>
 
     <!-- light-box js -->
-    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/ekko-lightbox/js/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/ekko-lightbox/js/ekko-lightbox.js">
+    </script>
     <script type="text/javascript" src="{{ asset('theme') }}/files/bower_components/lightbox2/js/lightbox.js"></script>
 
     <script src="{{ asset('vendor/jquery-validation/jquery.validate.min.js') }}"></script>
@@ -437,26 +481,34 @@
 
     {{-- data-table js --}}
     <script src="{{ asset('theme') }}/files/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js">
+    </script>
     <script src="{{ asset('theme') }}/files/assets/pages/data-table/js/jszip.min.js"></script>
     <script src="{{ asset('theme') }}/files/assets/pages/data-table/js/pdfmake.min.js"></script>
     <script src="{{ asset('theme') }}/files/assets/pages/data-table/js/vfs_fonts.js"></script>
-    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/dataTables.buttons.min.js"></script>
-    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/buttons.flash.min.js"></script>
+    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/dataTables.buttons.min.js">
+    </script>
+    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/buttons.flash.min.js">
+    </script>
     <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/jszip.min.js"></script>
     <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/vfs_fonts.js"></script>
-    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/buttons.colVis.min.js"></script>
+    <script src="{{ asset('theme') }}/files/assets/pages/data-table/extensions/buttons/js/buttons.colVis.min.js">
+    </script>
     <script src="{{ asset('theme') }}/files/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
     <script src="{{ asset('theme') }}/files/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
-    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script src="{{ asset('theme') }}/files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js">
+    </script>
+    <script
+        src="{{ asset('theme') }}/files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js">
+    </script>
 
 
     <script>
         window.dataLayer = window.dataLayer || [];
-        var l_url = "{{url('/')}}";
-        var l_asset = "{{asset('/')}}";
+        var l_url = "{{ url('/') }}";
+        var l_asset = "{{ asset('/') }}";
 
         $(function() {
 
@@ -492,7 +544,7 @@
             $.extend(true, $.fn.dataTable.defaults, {
                 "language": {
                     "processing": "{{ __('Loading') }}",
-                    // "processing": '<i class="fas fa-spinner fas-spin fas-3x fas-fw"></i><span class="sr-only">{{ __("กำลังโหลดข้อมูล") }}</span> ',
+                    // "processing": '<i class="fas fa-spinner fas-spin fas-3x fas-fw"></i><span class="sr-only">{{ __('กำลังโหลดข้อมูล') }}</span> ',
                 },
                 "iDisplayLength": 50,
                 createdRow: function(row, data, dataIndex) {

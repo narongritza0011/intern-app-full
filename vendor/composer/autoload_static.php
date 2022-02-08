@@ -607,6 +607,7 @@ class ComposerStaticInit891460d2a1a4ff550b0b20feddbc2725
         'App\\Http\\Controllers\\LocationController' => __DIR__ . '/../..' . '/app/Http/Controllers/LocationController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Controllers\\ReportworkController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReportworkController.php',
+        'App\\Http\\Controllers\\ServiceMaController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceMaController.php',
         'App\\Http\\Controllers\\SubmitDocumentController' => __DIR__ . '/../..' . '/app/Http/Controllers/SubmitDocumentController.php',
         'App\\Http\\Controllers\\UnlockSystemController' => __DIR__ . '/../..' . '/app/Http/Controllers/UnlockSystemController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
